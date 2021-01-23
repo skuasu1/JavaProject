@@ -1,23 +1,18 @@
 package OOP3;
 
 public class PassbyValue {
-
+// class level or instancevariable
 	public static void main(String[] args) {
-		int a = 10;
-		int b = 20;
-
-		PassbyValue p = new PassbyValue();
-		p.add(a, b);
-		System.out.println(p);
-
+		// local variable
+		int x = 10;
+		int y = 20;
+		add(x, y);
+		System.out.println(add(x, y));
 	}
 
-	public int add(int x, int y) {
-		int c;
-		c = x + y;
-		System.out.println(c);
+	public static int add(int a, int b) {
+		int c = a + b;
 		return c;
-	}
-	
 
+	}
 }
