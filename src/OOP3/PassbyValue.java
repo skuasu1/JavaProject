@@ -9,10 +9,8 @@ public class PassbyValue {
 		add(x, y);
 		System.out.println(add(x, y));
 	}
-
 	public static int add(int a, int b) {
 		int c = a + b;
 		return c;
-
 	}
 }

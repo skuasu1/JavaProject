@@ -9,7 +9,6 @@ public class EncapsulationImplementation extends Encapsulation {
 		obj.setAge(20);
 		obj.setId(01);
 		obj.setName("karthikSubramanaya");
-
 		System.out.println(obj.getAge());
 		System.out.println(obj.getId());
 		System.out.println(obj.getName());
