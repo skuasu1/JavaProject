@@ -1,4 +1,4 @@
-package arrayInterviewProblems;
+package leetCodeProblems;
 
 public class RotatingArrayByKItems {
 
@@ -21,9 +21,9 @@ public class RotatingArrayByKItems {
 		// in case the rotating factor is
 		// greater than array length
 		d = d % n;
+		reverseArray(arr, 0, n - 1);
 		reverseArray(arr, 0, d - 1);
 		reverseArray(arr, d, n - 1);
-		reverseArray(arr, 0, n - 1);
 	}
 
 	static void printArray(int nums[]) {
